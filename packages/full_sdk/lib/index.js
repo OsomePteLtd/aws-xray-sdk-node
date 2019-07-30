@@ -1,6 +1,7 @@
 // Convenience file to require the SDK from the root of the repository
 var AWSXRay = require('aws-xray-sdk-core');
 AWSXRay.express = require('aws-xray-sdk-express');
+AWSXRay.koa = require('aws-xray-sdk-koa');
 AWSXRay.captureMySQL = require('aws-xray-sdk-mysql');
 AWSXRay.capturePostgres = require('aws-xray-sdk-postgres');
 
